@@ -1,0 +1,364 @@
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}    
+ .header {
+  display: block;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  background: url("Post-Rex-Banner-1.jpg");
+  width: 100%;
+  
+}
+
+.login {
+    float: right;
+    display: block;
+    color: #FFF;
+    background-color: #FF8272;
+    border-color: #FF8272;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    margin-right: 2em;
+    margin-top: .9em;
+    border-radius: 10%;
+}
+
+.toplogo {
+    color: white;
+    text-decoration: none;
+    margin-left: 2em;
+    margin-top: .6em;
+    display: inline-block;
+    font-size: 27px;
+}
+.toplogo:hover {
+    color: #337AAF;
+    text-decoration: underline;
+}
+.nav {
+    margin: 0 5em;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 2em;
+    margin:0 4em;
+    background-color: #333;
+    /* display: flex; */
+    /* justify-content:space-between; */
+    width: 100%;
+    
+  }
+  
+  .nav li {
+    float: left;
+    padding-left: 2em;
+    list-style-type: none ;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    
+    
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  div li a:hover {
+    background-color: #111;
+  } 
+ 
+.herotxt {
+    color: white;
+    display: block;
+    justify-content: center;
+    width: 650px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    padding-left: 280px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+form {
+    margin-left: 7em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    
+}
+
+form input {
+    width: 500px;
+    height: 45px;
+    margin-bottom: 0;
+}
+form button {
+    height: 50px;
+    width: 77px;
+    margin-bottom: 0;
+    padding-left: .01px;
+    background-color:  #FF8272;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+} 
+ 
+.grey-container {
+    
+    text-align: center;
+    display: block;
+    column-count: 3;
+    margin: 0;
+    padding:0;
+ 
+}
+.grey-container h4 {
+    margin-top: 0;
+}
+.grey-container p {
+    font-size: 12px;
+    padding-left: 2em;
+}
+.container {
+    background-image: url("1.png");
+      color: white;
+      padding:auto; height: 400px;
+   }
+
+.container ul  {
+    
+    text-align: center;
+    display: inline-block;
+   column-count: 3;
+   margin-left: 1em;
+   
+   list-style-type: none;
+   padding: 0 .1em 0 .1em;
+   width: 1200px;  
+   margin-bottom: 0;
+   font-size: 30px; 
+}
+.container h2 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+.container p {
+    text-align: left;
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 0;
+    width:29%;
+    margin-left: 2.5em;
+    
+}
+ .container li {
+    text-align: center;
+    padding-bottom: 0;
+    
+ }
+ 
+
+ .para {
+     margin-left: 3em;
+ }
+
+ .holder {
+     display: flex;
+     padding-top: 3em;
+     justify-content: space-between;
+     background-color: #ffcb52;
+ }
+ .holder h2 {
+    color:rgb(0, 0, 0);
+    padding:90px 60px;
+    font-size: 30px;
+    font-weight: 500;
+ }
+ .holder img {
+    display: block;
+    height: 350px;
+    width: 300px;
+    padding: 2em 16em 2em 0;
+    margin-top: -3em;
+ }
+ footer {
+     background-color: #eeeeee;
+     padding: .04em 2em 0 2em;
+     font-size: 13px;
+     font-weight: 100;
+     line-height: 1.4;
+ }
+ footer ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding-bottom: 2em;
+    
+    
+ } 
+ footer ul li a{
+     color: #337ab7;
+     display: block;
+     text-decoration: none;
+     padding-left: 14px;
+ }
+ footer ul li a:hover {
+     cursor: pointer;
+     text-decoration: underline ;
+ }
+ footer p a {
+     color: #337ab7;
+     text-decoration: none;
+ }
+ footer p a:hover {
+     text-decoration: underline;
+ } 
+ footer p {
+     border-bottom: rgb(119, 119, 119) solid 1px;
+     font-size: 15px;
+    margin-bottom: 0px;
+    padding: 0 4em;
+ }
+ .overlay {
+    background-color: rgba(0, 0, 0, 0.671);
+    display: none;
+    width: 100%;
+    height: 630px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.overlaycontent {
+    background-color: white;
+    position: absolute;
+    top: 5em;
+    left: 33em;
+    padding: 2em;
+    text-align: center;
+    transform: scaleY(1);
+    transform-origin: top;
+    opacity: 0;
+    animation: from-top .3s .2s ease-in forwards;
+}
+@keyframes from-top {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.blubtn {
+    background-color: #3B5998;
+    color: white;
+    width: 100% ;
+    padding: .5em;
+}
+.signupbtn {
+    background-color: #FF8272;
+    border: #FF8272 solid;
+    color: white;
+    width: 100% ;
+    padding: .5em;
+}
+
+.overlaycontent input {
+    width: 93%;
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+#extbtn {
+    float: right;
+    height: 3em;
+    width: 5em;
+    background-color: #FF8272;
+    margin: 1em 2em;
+    color: white ;
+    opacity: 0;
+    animation: fadein .5s  ease-out forwards;
+}
+.show {
+    display: block;
+
+}
+
+@keyframes fadein {
+    from {
+       
+       opacity: 0;
+    }
+    to {
+       
+        opacity: 1;
+    }
+}
+
+.recmnd-content> ul  {
+    display: flex;
+    padding: 1em;
+    list-style-type: none;
+}
+
+.recmnd-content> ul >li {
+    padding: 1em 2em;
+    border: 1px solid black;
+    border-collapse:inherit;
+}
+
+.recmnd-content> ul >li > img {
+    height: 8em;
+}
+
+.head {
+    margin: 2em;
+}
+
+.navigation {
+    margin: 0 4em;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1em;
+    margin:0 4em;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.navigation > ul > li > a {
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+}
+.navigation > ul > li >  a:hover {
+    background-color: #111;
+}
+
+.navigation > ul > li {
+    color: #111;
+} 
+.searchbox {
+    margin-top: 27em;
+}
